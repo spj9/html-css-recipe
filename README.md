@@ -24,5 +24,3 @@ När ni skapar receptet så är det viktigt att receptet är enkelt att följa o
 
 - CSS! _( Vänta med denna till efter CSS-omgång )_ Styling är viktigt och ska finnas med, och det ska vara ordentlig. Tips är att styla er receptsida efter ert recept, alltså använda som team som rätten går i, färger och så.
 
-  <figure><img src="example-img2.webp"></figure>
-  <figure><img src="example-img3.webp"></figure>
