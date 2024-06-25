@@ -1,4 +1,4 @@
-/* Global styles */
+/* GLOBAL STYLES */
 
 * {
     box-sizing: border-box;
@@ -7,15 +7,15 @@
   }
   
   body {
+    background-color: #f9f9f9;
+    color: #333;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
   }
   
   h1, h2 {
-    font-weight: bold;
     color: #00698f;
+    font-weight: bold;
   }
   
   h1 {
@@ -31,16 +31,16 @@
   }
   
   img {
-    display: block;
-    margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 20px;
   }
   
   ul, ol {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
   
   li {
@@ -48,13 +48,13 @@
   }
   
   li:before {
+    color: #00698f;
     content: "\2022";
     font-size: 18px;
-    color: #00698f;
     margin-right: 10px;
   }
   
-  /* Header styles */
+  /* HEADER STYLES */
   
   header {
     background-color: #006321;
@@ -68,33 +68,38 @@
     color: #fff;
   }
   
-  /* Main styles */
-
+  /* MAIN STYLES */
+ 
   main {
     display: flex;
     flex-flow: row nowrap;
     padding: 20px;
   }
-  
+     
+  section {
+    flex-flow: row nowrap;
+    margin-bottom: 20px;
+  }
+   
   .image-column {
-    flex-basis: 40%;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    margin-right: 20px;
   }
   
   .image-column img {
-    width: 500px;
     height: auto;
     margin: 20px 0;
+    width: 500px;
   }
-  
+
   .text-column {
-    flex-basis: 60%;
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
   }
   
   .text-column h2 {
@@ -105,20 +110,15 @@
     margin-bottom: 20px;
   }
   
-  section {
-    flex-flow: row nowrap;
-    margin-bottom: 20px;
-  }
-  
-  /* Footer styles */
+  /* FOOTER STYLES */
   
   footer {
     background-color: #aa0000;
+    clear: both;
     color: #fff;
     padding: 10px;
     text-align: center;
     text-shadow:2px 2px 5px #333 ;
-    clear: both;
   }
   
   footer a {
